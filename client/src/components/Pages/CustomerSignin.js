@@ -56,7 +56,7 @@ const Signin = () => {
               type="email" name="emailLogin" value={emailLogin}
               onChange={handleInputChange}
               className="form-control mt-1"
-              placeholder="e.g John@example.com" style={{width:'320px'}}
+              placeholder="xyz@example.com" style={{width:'320px'}}
               required
             />
           </div>
@@ -66,7 +66,7 @@ const Signin = () => {
               type="password" name="passwordLogin" value={passwordLogin}
               onChange={handleInputChange}
               className="form-control mt-1"
-              placeholder="e.g rXhAz29$%1" style={{width:'320px'}}
+              placeholder="rXhAz29$%1" style={{width:'320px'}}
               required
             />
           </div>

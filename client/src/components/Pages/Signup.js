@@ -131,13 +131,13 @@ class Signup extends Component {
         <form className="Auth-form" onSubmit={this.register}>
           <div className="Auth-form-content">
             <h3 className="Auth-form-title">Sign Up</h3>
-            <div className="form-group mt-3">
+            <div className="form-group mt-2">
               <label>First Name</label>
               <input
                 type="username"
                 required
                 className="form-control mt-1"
-                placeholder="e.g Jane"
+                placeholder="Your first name"
                 onChange={this.handleFname} style={{width:'320px'}}
               />
             </div>
@@ -147,7 +147,7 @@ class Signup extends Component {
                 type="username"
                 required
                 className="form-control mt-1"
-                placeholder="e.g Doe"
+                placeholder="Your middle name"
                 onChange={this.handleMname} style={{width:'320px'}}
               />
             </div>
@@ -157,7 +157,7 @@ class Signup extends Component {
                 type="username"
                 required
                 className="form-control mt-1"
-                placeholder="e.g Smith"
+                placeholder="Your last name"
                 onChange={this.handleLname} style={{width:'320px'}}
               />
             </div>
@@ -167,7 +167,7 @@ class Signup extends Component {
                 type="tel"
                 required
                 className="form-control mt-1"
-                placeholder="e.g 923312613326"
+                placeholder="91+xxxxxxxxxx"
                 onChange={this.handlePhone} style={{width:'320px'}}
               />
             </div>
@@ -177,7 +177,7 @@ class Signup extends Component {
                 type="email"
                 required
                 className="form-control mt-1"
-                placeholder="e.g John@example.com"
+                placeholder="xyz@example.com"
                 onChange={this.handleEmail} style={{width:'320px'}}
               />
             </div>
@@ -197,7 +197,7 @@ class Signup extends Component {
                 type="password"
                 required
                 className="form-control mt-1"
-                placeholder="e.g rXhAz29$%1"
+                placeholder="rXhAz29$%1"
                 onChange={this.handlePasswordChange} style={{width:'320px'}}
               />
             </div>

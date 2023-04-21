@@ -73,7 +73,7 @@ class Signin extends Component {
             <input
               type="password" onChange={this.handlePasswordChange} 
               className="form-control mt-1"
-              placeholder="e.g rXhAz29$%1" required style={{width:'320px'}}
+              placeholder="rXhAz29$%1" required style={{width:'320px'}}
             />
           </div>
           <div className="d-grid gap-2 mt-3">

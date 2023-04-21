@@ -42,7 +42,7 @@ const Contact = () => {
           </div>
           <div className="row">
             <div className="col-lg-12 align-items-center d-flex justify-content-center grey-text">
-              <h5>Address and Direction</h5>
+              <h5><strong>Address and Direction</strong></h5>
             </div>
           </div>
         </div>
@@ -52,44 +52,40 @@ const Contact = () => {
             <img src={require('../../images/contact.jpg')} style={{marginTop:'50px',marginLeft:'20px',marginRight:'0',borderRadius:'20px'}} width="850" height="550" />
           </div>
 
-          <div className="col-lg-6" style={{ paddingTop: "150px" }}>
+          <div className="col-lg-6" style={{ paddingTop: "50px" }}>
             <div className="row">
-              <div className="col-lg-1">
+              {/* <div className="col-lg-1">
                 <img src="marker.png" height="20px" width="20px" />
-              </div>
-              <div className="col-lg-6" style={{marginLeft:'0'}}>
-                {" "}
+              </div> */}
+              <div className="col-lg-6" style={{marginLeft:'0', paddingLeft:"50px"}}>
+                
                 <b style={{fontSize:'25px'}}>Our Address</b>
                 <br />
-                <p className="grey-text" style={{fontSize:'20px'}}>St-4, Sector 17-D, NH 5, Karachi, Sindh</p>
+                <p  style={{fontSize:'20px', color:"black"}}>Bannari Amman Institute of Technology, Aluthukombai post, Sathyamangalam, Erode, Tamilnadu - 638401</p>
               </div>
             </div>
-            <br />
             <div className="row">
-              <div className="col-lg-1">
+              {/* <div className="col-lg-1">
                 <img src="mobile-notch.png" height="20px" width="20px" />
-              </div>
-              <div className="col-lg-6">
+              </div> */}
+              <div className="col-lg-6" style={{marginLeft:'0', paddingLeft:"50px"}}>
                 {" "}
                 <b style={{fontSize:'25px'}}>Phone</b>
                 <br />
-                <p className="grey-text" style={{fontSize:'20px'}}>+923312613326</p>
+                <p style={{fontSize:'20px', color:"black"}}>9789113517</p>
               </div>
             </div>
-            <br />
             <div className="row">
-              <div className="col-lg-1">
+              {/* <div className="col-lg-1">
                 <img src="time-check.png" height="20px" width="20px" />
-              </div>
-              <div className="col-lg-6">
+              </div> */}
+              <div className="col-lg-6" style={{marginLeft:'0', paddingLeft:"50px"}}>
                 {" "}
                 <b style={{fontSize:'25px'}}>Open Hours</b>
                 <br />
-                <p className="grey-text" style={{fontSize:'20px'}}>Mon-Sat 8:00am-4:30pm</p>
+                <p style={{fontSize:'20px', color:"black"}}>Mon-Sat 8:00am-4:30pm</p>
               </div>
             </div>
-            <br />
-            <br />
             <br />
             <div className="d-grid gap-2">
               <button
@@ -177,7 +173,7 @@ const Contact = () => {
             <MDBRow className="w-100" >
               <MDBCol lg="6" className="my-4">
                 <iframe
-                  src="https://maps.google.com/maps?width=600px&amp;height=575&amp;hl=en&amp;q=St-4, Sector 17-D, NH 5, Karachi, Karachi City, Sindh&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                  src="https://maps.https://www.google.com/maps/place/Bannari+Amman+Institute+of+Technology/@11.4970126,77.2745221,17z/data=!4m6!3m5!1s0x3ba9215d6d1b28f9:0xf48946a7dfcfeb1a!8m2!3d11.4970126!4d77.2771024!16zL20vMGJ6OHB2google.com/maps?width=600px&amp;height=575&amp;hl=en&amp;q=St-4, Sector 17-D, NH 5, Karachi, Karachi City, Sindh&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                   className="w-250"
                   height="600"
                   width="800"
