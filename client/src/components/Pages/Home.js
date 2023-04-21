@@ -2,7 +2,6 @@ import React from "react";
 import "./styles/Home.css";
 import Slider from "./Slider";
 import Footer from "./Footer";
-import Article from "./Article";
 const Home = () => {
   return (
     <>

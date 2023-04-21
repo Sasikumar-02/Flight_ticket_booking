@@ -12,7 +12,6 @@
 .App {
   text-align: left;
   background-color:white;
-  /* background-image: url(https://media.cntraveler.com/photos/6299c3bc35ebf6fba2f5bf2d/16:9/w_2560%2Cc_limit/Airplane_GettyImages-118271203.jpg); */
   background-size: cover;
   min-height: 100vh;
   display: flex;
