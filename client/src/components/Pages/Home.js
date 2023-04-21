@@ -184,7 +184,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <header style={{ paddingLeft: 0,marginLeft:'25%',marginTop:'5%' }}>
+      <header style={{ paddingLeft: 0,marginTop:'5%' }}>
         <div
           className="p-5 text-center bg-image"
           style={{
@@ -201,13 +201,14 @@ const Home = () => {
             <div className="d-flex justify-content-center align-items-center h-100">
               <div className="text-white">
                 <h1 className="mb-3" style={{fontWeight:'800',marginTop:'20px'}}>Start your journey with FAST Airways</h1>
+                “Once you have tasted flight, you will forever walk the earth with your eyes turned skyward, for there you have been, and there you will always long to return.”
                 <h4 className="mb-3" style={{fontSize:'20px'}}>Exclusive offers, special offers and amazing rewards await for premium membership holders</h4>
                 <a
                   className="btn btn-outline-light btn-lg"
                   href="#!"
                   role="button" style={{backgroundColor:'grey', fontSize:'20px',marginBottom:'20px'}}
                 >
-                  Join Now
+                  Happy life
                 </a>
               </div>
             </div>

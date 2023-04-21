@@ -46,7 +46,7 @@ const About = () => {
           </div>
           <div className="row">
             <div className="col-lg-12 align-items-center d-flex justify-content-center">
-              <h5>Our goals and values</h5>
+              <h5><strong>Our goals and values</strong></h5>
             </div>
           </div>
         </div>
@@ -60,16 +60,8 @@ const About = () => {
             />
           </div>
 
-          <div className="col-lg-6" style={{ paddingTop: "150px" }}>
-            <p style={{ fontSize: "25px", marginLeft: "10px" }}>
-              Our focus is on your overall well being and helping you avail
-              <br />
-              luxurious flights at minimal costs. We provide state-of-the-art{" "}
-              <br />
-              facilities in all our airways.
-            </p>
-            <br />
-            <br />
+          <div className="col-lg-6" style={{ paddingTop: "80px" }}>
+            <p><strong>Our focus is on your overall well being and helping you avail luxurious flights at minimal costs. We provide state-of-the-art{" "} facilities in all our airways. Once someone has had the opportunity to soar through the skies, they may always yearn to return to that feeling of freedom and excitement. It speaks to the power of life-changing experiences and how they can shape our perspectives and aspirations.</strong></p>
             <div className="row">
               <div className="col-lg-1">
                 <img
@@ -77,6 +69,7 @@ const About = () => {
                   height="80px"
                   width="70px"
                 />
+                <br/>
               </div>
               <div className="col-lg-6">
                 {" "}
@@ -87,10 +80,6 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
             <div className="row">
               <div className="col-lg-1">
                 <img
@@ -152,7 +141,7 @@ const About = () => {
           </div>
         </div>
 
-        <Carousel style={{height:'200px'}}>
+        <Carousel style={{height:'20px'}}>
           <Carousel.Item interval={1000}>
             <p className="align-items-center d-flex justify-content-center" style={{fontSize:'25px'}}>
             {data.fname}{" "}{data.lname}{": "}{data.review}
@@ -190,9 +179,8 @@ const About = () => {
                 type="video/mp4"
               />
             </video>
-          </div>
-          <div className="col-lg-6 align-items-center d-flex justify-content-center">
-            <div className="white border-0" style={{ width: "35rem" }}>
+            <div className="col-lg-6 align-items-center d-flex justify-content-center" style={{margin:"0px 0px 0px 35px"}}>
+              <div className="white border-0" style={{ width: "35rem" }}>
               <h2>
                 <strong style={{ fontSize: "35px", marginLeft: "0px" }}>
                   Your comfort is our priority
@@ -215,6 +203,8 @@ const About = () => {
               </div>
             </div>
           </div>
+          </div>
+          
         </div>
       </section>
 
