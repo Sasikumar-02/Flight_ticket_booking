@@ -22,7 +22,7 @@ const ViewProfile = () => {
   }, []);
   return (
     <div className="vh-100 bg-pic">
-      <MDBContainer  style={{margin:'0',marginLeft:'28%'}}>
+      <MDBContainer  style={{margin:'0',marginLeft:'28%', width:"832px"}}>
         <MDBRow className="justify-content-center">
           <MDBCol md="9" lg="7" xl="6" className="mt-8">
             <MDBCard
