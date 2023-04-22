@@ -171,9 +171,9 @@ const Contact = () => {
 
           <div className="col-lg-6 align-items-center d-flex justify-content-center" style={{width:'1200px',margin:'0'}}>
             <MDBRow className="w-100" >
-              <MDBCol lg="6" className="my-4">
+              <MDBCol lg="6" className="my-4" style={{marginLeft:"300px"}}>
                 <iframe
-                  src="https://maps.https://www.google.com/maps/place/Bannari+Amman+Institute+of+Technology/@11.4970126,77.2745221,17z/data=!4m6!3m5!1s0x3ba9215d6d1b28f9:0xf48946a7dfcfeb1a!8m2!3d11.4970126!4d77.2771024!16zL20vMGJ6OHB2google.com/maps?width=600px&amp;height=575&amp;hl=en&amp;q=St-4, Sector 17-D, NH 5, Karachi, Karachi City, Sindh&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.763008162312!2d77.27491371448191!3d11.497012591834988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9215d6d1b28f9%3A0xf48946a7dfcfeb1a!2sBannari%20Amman%20Institute%20of%20Technology!5e0!3m2!1sen!2sus!4v1677480110277!5m2!1sen!2sus"
                   className="w-250"
                   height="600"
                   width="800"
