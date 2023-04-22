@@ -29,4 +29,4 @@ Your app is ready to be deployed!
 
 ## `Home page`
 
-![Alt text] "C:\Users\Sasi Kumar\Downloads\homepage.png"
+![Alt text] "homepage.png"
