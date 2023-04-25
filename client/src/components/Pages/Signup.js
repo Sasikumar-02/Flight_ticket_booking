@@ -20,10 +20,10 @@ class Signup extends Component {
     };
   }
 
-  handleFname = (event) => {
+  handleFname =(event) => {
     this.setState({
       fname: event.target.value,
-    });
+    })
   };
   handleMname = (event) => {
     this.setState({
@@ -122,8 +122,6 @@ class Signup extends Component {
       Swal.fire("Registered Successfully!", "", "success");
       setTimeout(()=>this.props.history.push("/CustomerSignin"),500);
     }
-
-
   };
   render() {
     return (
@@ -145,7 +143,6 @@ class Signup extends Component {
               <label>Middle Name</label>
               <input
                 type="username"
-                required
                 className="form-control mt-1"
                 placeholder="Your middle name"
                 onChange={this.handleMname} style={{width:'320px'}}
@@ -228,5 +225,4 @@ class Signup extends Component {
     );
   }
 }
-
 export default withRouter(Signup);
