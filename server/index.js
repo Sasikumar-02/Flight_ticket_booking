@@ -13,7 +13,9 @@ const db= mysql.createPool({
     password:"",
     database:"airport_management"
 });
-
+app.get("", (req, res)=>{
+    const sqlGet="sele"
+})
 
 app.use(cors());
 app.use(express.json());
