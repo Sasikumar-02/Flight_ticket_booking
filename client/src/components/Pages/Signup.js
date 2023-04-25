@@ -62,7 +62,7 @@ class Signup extends Component {
     });
   };
   encrypt()
-    {
+  {
         let s=4;
         var text=this.state.password;
         console.log("text: " + text);
@@ -90,7 +90,7 @@ class Signup extends Component {
         console.log('result: ' + result);
         
         console.log(this.state.password)
-    }
+  }
   register = (e) => {
     e.preventDefault();
     console.log(this.state.fname);
