@@ -1,7 +1,7 @@
 import {Switch,Route, BrowserRouter} from "react-router-dom"; 
 import {ToastContainer} from 'react-toastify';
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 import 'react-toastify/dist/ReactToastify.css';
 import Home from "./components/Pages/Home";
 import Contact from "./components/Pages/Contact"

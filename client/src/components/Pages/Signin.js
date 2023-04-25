@@ -14,19 +14,16 @@ class Signin extends Component {
       passwordLogin: '',
     };
   }
-
   handleUsernameChange = (event) => {
     this.setState({
       usernameLogin: event.target.value,
     });
   };
-
   handlePasswordChange = (event) => {
     this.setState({
       passwordLogin: event.target.value,
     });
   };
-  
   Login=(event)=>{
     event.preventDefault();
     Axios.post('http://localhost:5000/login', {
@@ -52,7 +49,6 @@ class Signin extends Component {
         setTimeout(()=>this.props.history.push('/AdminPanel'),500); 
     }
   })
-
   }
   render (){
     return(
