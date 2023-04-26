@@ -20,7 +20,6 @@ const About = () => {
       setData2({ ...resp.data[2] }),
     );
   }, []);
-  
   return (
     <div>
       <section className="">

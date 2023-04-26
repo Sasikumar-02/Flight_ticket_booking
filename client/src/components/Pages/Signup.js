@@ -4,6 +4,17 @@ import "./styles/Signin.css";
 import { withRouter, Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+class Signin extends Component{
+  Swal=withReactContent(Swal);
+  constructor(props)
+  {
+    super(props);
+    this.state={
+      username:"",
+      password:""
+    }
+  }
+}
 class Signup extends Component {
   Swal = withReactContent(Swal);
   constructor(props) {
@@ -88,7 +99,6 @@ class Signup extends Component {
             }
         }
         console.log('result: ' + result);
-        
         console.log(this.state.password)
   }
   register = (e) => {

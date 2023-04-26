@@ -5,17 +5,12 @@ const mysql= require("mysql2");
 const bodyParser = require("body-parser");
 const cors= require("cors");
 const { application } = require("express");
-
-
 const db= mysql.createPool({
     host:"localhost",
     user:"root",
     password:"",
     database:"airport_management"
 });
-app.get("", (req, res)=>{
-    const sqlGet="sele"
-})
 
 app.use(cors());
 app.use(express.json());

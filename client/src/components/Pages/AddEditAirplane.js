@@ -10,7 +10,7 @@ const initialState = {
 const AddEditAirplane = () => {
   const [state, setState] = useState(initialState);
   const { airplane_id, max_seats } = state;
-
+  
   const history = useHistory();
 
   const { id } = useParams();
